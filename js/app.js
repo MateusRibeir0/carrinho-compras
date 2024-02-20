@@ -1,4 +1,4 @@
-// Precisei por esta vaciável aqui em cima para não ficar acumulando a soma do montante total dentro da função.
+// Precisei por esta variável aqui em cima para não ficar acumulando a soma do montante total dentro da função.
 // Ativar a função limpar apenas para a página começar sem nada, poderia mudar isso no html mas coloquei por aqui.
 
 let totalGeral;
