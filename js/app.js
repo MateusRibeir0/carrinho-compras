@@ -1,5 +1,6 @@
 let totalGeral = 0;
 let carrinhoProdutos = []; // Array para armazenar informações sobre os produtos no carrinho
+limpar();
 
 function adicionar() {
     let produto = document.getElementById('produto').value;
@@ -41,3 +42,9 @@ function adicionar() {
     document.getElementById('quantidade').value = 0;
 }
 
+function limpar() {
+    let limpaCarrinho = document.getElementById('lista-produtos');
+    limpaCarrinho.innerHTML = "";
+    let limpaTotal = document.getElementById('valor-total');
+    limpaTotal.textContent = `R$${0}`;
+}
